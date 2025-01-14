@@ -56,3 +56,8 @@ button {
 	margin-left: 80%;
 	margin-top: -420%;
 }
+
+.language {
+    display: flex;
+    justify-content: end;
+}
