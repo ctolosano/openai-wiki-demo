@@ -1,13 +1,14 @@
 nav {
 	display: flex;
+    justify-content: space-between;
 }
 
 .a {
-    display: flex;
+	display: flex;
 	width: 50%;
 	justify-content: space-between;
 	margin-left: 20%;
-    align-items: center;
+	align-items: center;
 }
 
 .b {
@@ -58,6 +59,15 @@ button {
 }
 
 .language {
-    display: flex;
-    justify-content: end;
+	display: flex;
+	justify-content: end;
+	margin: 5px;
 }
+
+.lol {
+    display: flex;
+    justify-content: start;
+    height: min-content;
+}
+
+
