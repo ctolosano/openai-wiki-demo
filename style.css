@@ -1,3 +1,7 @@
+body {
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
 nav {
 	display: flex;
 	justify-content: space-between;
@@ -41,7 +45,7 @@ button {
 }
 
 .c {
-	padding: 0;
+	padding:0;
 	margin: 0;
 	border: 0;
 }
@@ -57,7 +61,7 @@ button {
 	flex-direction: column;
 	width: 15%;
 	margin-left: 80%;
-	margin-top: -1830%;
+	margin-top: -2012%;
 }
 
 .language {
@@ -79,6 +83,7 @@ button {
 	align-items: center;
 	font-size: 120%;
 	font-weight: bold;
+	gap: 10px;
 }
 
 .ol {
@@ -88,4 +93,10 @@ button {
 
 .lol {
 	gap: 10px;
+}
+
+.p {
+	display: flex;
+	align-items: center;
+	gap: 5px;
 }
