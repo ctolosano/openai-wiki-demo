@@ -7,6 +7,7 @@
 		<title>OpenAI - Wikipedia</title>
 	</head>
 	<body>
+		<script src="script.js" defer></script>
 		<nav>
 			<div class="lol">
 				<img src="menu_24dp_5F6368_FILL0_wght400_GRAD0_opsz24.svg" alt="menu" />
@@ -16,9 +17,9 @@
 					alt="search"
 				/>
 				<div class="search">
-					<input type="text" placeholder="Search.." />
+					<input type="text" placeholder="Search.." id="search" />
 				</div>
-				<button>Search</button>
+				<button id="btsearch">Search</button>
 			</div>
 			<div class="z">
 				<p>Donate</p>
@@ -37,7 +38,7 @@
 					src="translate_24dp_5F6368_FILL0_wght400_GRAD0_opsz24.svg"
 					alt="translate"
 				/>
-				<p>Languages</p>
+				<p id="pun">Languages</p>
 				<img
 					src="keyboard_arrow_down_24dp_5F6368_FILL0_wght400_GRAD0_opsz24.svg"
 					alt="arrow"
@@ -231,7 +232,7 @@
 				ultimately need "more capital than any non-profit has ever raised" to
 				achieve artificial general intelligence.[44]
 			</p>
-			<p align="left">
+			<p align="left" id="p">
 				The transition from a nonprofit to a capped-profit company was viewed
 				with skepticism suicide by Oren Etzioni of the nonprofit Allen Institute
 				for AI, who agreed that wooing top researchers to a nonprofit is
